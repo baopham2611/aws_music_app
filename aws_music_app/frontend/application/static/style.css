@@ -1,0 +1,132 @@
+/* Base body styles */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+}
+
+/* Navbar styling with shadows for elevation effect */
+.navbar {
+  -webkit-box-shadow: 0 4px 10px -5px rgba(0,0,0,0.3); /* Chrome, Safari */
+  -moz-box-shadow: 0 4px 10px -5px rgba(0,0,0,0.3);     /* Firefox */
+  box-shadow: 0 4px 10px -5px rgba(0,0,0,0.3);          /* Standard syntax */
+}
+
+/* Spacious padding for fluid containers */
+.container-fluid {
+  padding: 50px;
+}
+
+/* Utility class for borderless elements */
+.borderless {
+  border: none;
+}
+
+/* Styling for tables without margins */
+.table {
+  margin: 0;
+}
+
+/* Sidebar and wrapper styles for a sliding menu */
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  transition: margin .25s ease-out; /* Unified transition property */
+  -webkit-box-shadow: 0 4px 10px -5px rgba(0,0,0,0.3); /* Chrome, Safari */
+  -moz-box-shadow: 0 4px 10px -5px rgba(0,0,0,0.3);     /* Firefox */
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);                /* Standard syntax */
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  margin: 1.25rem 0 1.75rem 0;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+/* Responsive design adjustments */
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+/* Styles for iframe containers */
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 500px; /* Adjust to maintain aspect ratio */
+}
+
+.iframe-container > * {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 50%;
+  width: 50%;
+}
+
+
+.custom-btn {
+  display: block;
+  width: fit-content;
+  padding: 2px 8px;
+  font-size: 12px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 2px; /* space between buttons */
+  color: #fff; /* white text color */
+  pointer-events: none;
+}
+
+
+.my-4 {
+  margin-top: 1.5rem; /* Adjust the top margin */
+  margin-bottom: 1.5rem; /* Adjust the bottom margin */
+  border: 0;
+  height: 1px;
+  background: #d3284d; /* Adjust the color */
+}
+
+
+
+.service-info-btn {
+color: black; /* Default text color */
+padding: 4px 6px;
+border: 0.5px solid black; /* Specify border style */
+cursor: pointer;
+font-size: 10px;
+text-transform: uppercase;
+border-radius: 10px; /* Rounded corners */
+}
+
+
+

@@ -1,0 +1,18 @@
+<nav class="bg-light border-right" id="sidebar-wrapper">
+  <div class="sidebar-heading text-center"><a class="list-group-item-action " href="#">
+      <h3>AWS Music Application</h3>
+    </a></div>
+  <div class="list-group list-group-flush">
+    <!-- <a class="list-group-item list-group-item-action bg-light borderless" href="{{url_for('site.homePage')}}"> Car Handler </a> -->
+
+    <h6><a class="list-group-item list-group-item-action bg-light borderless" href="{{url_for('site.homePage', page_num =1)}}" > My Music </a></h6>
+    <h6><a class="list-group-item list-group-item-action bg-light borderless" href="{{url_for('music_api.get_musics_admin', page_num =1)}}"> Music Explore</a></h6>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+    </div>
+
+
+
+  </div>
+</nav>

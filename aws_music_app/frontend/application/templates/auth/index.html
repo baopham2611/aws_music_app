@@ -1,0 +1,23 @@
+<!-- application/templates/auth/index.htm -->
+{% extends "bootstrap/base.html" %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+{% endblock %}
+
+{% block content %}
+
+<body class="text-center" style="padding-top: 400px;";>
+    <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2">
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="window.location='/login'">Sign in</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="window.location='/register'">Register</button>
+
+        </div>
+
+</body>
+
+{% endblock %}

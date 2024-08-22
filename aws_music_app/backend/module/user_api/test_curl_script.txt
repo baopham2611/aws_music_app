@@ -1,0 +1,52 @@
+# Get all users
+curl -X 'GET' \
+  'http://127.0.0.1:8000/users/' \
+  -H 'accept: application/json'
+
+
+# Get user by email
+curl -X 'GET' \
+  'http://127.0.0.1:8000/users/s3695363@rmit.edu.vn' \
+  -H 'accept: application/json'
+
+
+
+# Create user 
+curl -X 'POST' \
+  'http://127.0.0.1:8000/users/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "email": "user@example.com",
+  "user_name": "JohnDoe",
+  "password": "strongpassword"
+}'
+
+
+
+# Get user 
+curl -X 'GET' \
+  'http://127.0.0.1:8000/users/user@example.com' \
+  -H 'accept: application/json'
+
+
+
+# Update user 
+curl -X 'PUT' \
+  'http://127.0.0.1:8000/users/user@example.com' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "user_name": "JohnUpdated",
+  "password": "newpassword123"
+}'
+
+
+
+# Delete user
+curl -X 'DELETE' \
+  'http://127.0.0.1:8000/users/newuser@example.com' \
+  -H 'accept: application/json'
+
+
+

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<!-- Sidebar -->
+{% include 'screen/sidebar.html' %}
+<!-- /#sidebar-wrapper -->
+
+<!-- Page Content -->
+<div id="page-content-wrapper">
+    {% include 'includes/navigation.html' %}
+
+    <div class="container-fluid">
+        {% include 'screen/unsubscribed_music_table.html' %}
+    </div>
+</div>
+<!-- /#page-content-wrapper -->
+{% endblock %}

@@ -1,0 +1,49 @@
+<!-- application/templates/auth/login.html -->
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+{% with messages = get_flashed_messages() %}
+<body class="text-center" style="padding-top: 200px;">
+    <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2">
+            <form action="{{ url_for('site.loginPage') }}" method="POST" class="form-signin">
+                <!-- Image and Title -->
+                <div class="text-center">
+                    <img class="mb-4" src="{{ url_for('static', filename='images/logo2.png') }}" alt="Logo" width="230" height="55">
+                </div>
+                <h1 style="color:#5b92cc" class="operation-tool-heading">Operation Tool</h1>
+                <h4 style="color:#28a745" class="sign-in-heading">Please Sign In</h4>
+                <!-- Email Input -->
+                <div class="form-group">
+                    <input type="email" name="email" id="inputUsername" class="form-control" placeholder="Email" required autofocus>
+                </div>
+                <!-- Password Input -->
+                <div class="form-group">
+                    <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                </div>
+                <!-- Remember Me Checkbox -->
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <!-- Display Flash Messages -->
+                {% if messages %}
+                {% for message in messages %}
+                <div class="alert alert-danger alert-dismissable" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    {{ message }}
+                </div>
+                {% endfor %}
+                {% endif %}
+                <!-- Submit Button -->
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </form>
+        </div>
+    </div>
+</body>
+{% endwith %}
+{% endblock %}
