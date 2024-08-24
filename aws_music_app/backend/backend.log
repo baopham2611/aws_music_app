@@ -1,0 +1,133 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/bao/aws_music_app/aws_music_app/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1241] using StatReload
+INFO:     Started server process [1243]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:root:Error during login: 401: Invalid password
+INFO:     127.0.0.1:50680 - "POST /login/ HTTP/1.1" 500 Internal Server Error
+ERROR:root:Error during login: 401: Invalid password
+INFO:     127.0.0.1:41084 - "POST /login/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:53072 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53082 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     65.49.1.54:25817 - "GET / HTTP/1.1" 404 Not Found
+INFO:     65.49.1.62:7955 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.63:61967 - "GET http%3A//api.ipify.org/?format=json HTTP/1.1" 404 Not Found
+INFO:     65.49.1.56:23525 - "CONNECT www.shadowserver.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     154.213.184.18:41076 - "CONNECT example.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     154.213.184.18:53444 - "CONNECT example.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     87.236.176.167:36393 - "GET / HTTP/1.1" 404 Not Found
+INFO:     154.213.184.18:60360 - "CONNECT example.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     154.213.184.18:41408 - "CONNECT example.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     115.236.19.125:58520 - "GET /.env HTTP/1.1" 404 Not Found
+ERROR:root:Error during login: 401: Invalid password
+INFO:     127.0.0.1:46500 - "POST /login/ HTTP/1.1" 500 Internal Server Error
+ERROR:root:Error during login: 401: Invalid password
+INFO:     127.0.0.1:45782 - "POST /login/ HTTP/1.1" 500 Internal Server Error
+ERROR:root:Error during login: 401: Invalid password
+INFO:     127.0.0.1:57976 - "POST /login/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:36138 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36150 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49780 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32816 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57356 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46792 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43334 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43342 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59004 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59014 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     205.210.31.200:60264 - "GET / HTTP/1.1" 404 Not Found
+INFO:     154.213.184.18:42880 - "CONNECT example.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     172.206.139.15:52516 - "GET / HTTP/1.1" 404 Not Found
+INFO:     23.95.200.178:59474 - "GET / HTTP/1.1" 404 Not Found
+INFO:     198.235.24.143:59064 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.54:43538 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.54:33978 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.54:33998 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     154.213.184.18:37088 - "CONNECT example.com%3A443 HTTP/1.1" 404 Not Found
+ERROR:root:Error during login: An error occurred (ResourceNotFoundException) when calling the Query operation: Requested resource not found
+INFO:     127.0.0.1:39476 - "POST /login/ HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55760 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55774 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58132 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53034 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53036 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57602 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57614 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42922 - "GET /musics/unsubscribed/?search_music_title=Sweet+Home+Alabama&search_music_artist=&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58254 - "GET /musics/unsubscribed/?search_music_title=Sweet+Home+Alabama&search_music_artist=&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33364 - "GET /musics/unsubscribed/?search_music_title=Sweet+Home+Alabama&search_music_artist=Lynyrd+Skynyrd&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33372 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56570 - "GET /musics/unsubscribed/?search_music_title=King+of+Spain&search_music_artist=&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56582 - "GET /musics/unsubscribed/?search_music_title=King+of+Spain&search_music_artist=%09The+Tallest+Man+on+Earth&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50842 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50852 - "GET /musics/unsubscribed/?search_music_title=King+of+Spain&search_music_artist=&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55104 - "GET /musics/unsubscribed/?search_music_title=King+of+Spain&search_music_artist=The+Tallest+Man+on+Earth&search_music_year=2010&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32986 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=&search_music_year=2010&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32998 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=%09The+Tallest+Man+on+Earth&search_music_year=2010&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47982 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=The+Tallest+Man+on+Earth&search_music_year=2010&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35106 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=The+Tallest+Man+on+Earth&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35386 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=The+Tallest+Man+on+Earth&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35400 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49606 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56380 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60462 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33702 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33710 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55604 - "GET /musics/unsubscribed/?search_music_title=Tangled+Up+in+Blue&search_music_artist=&search_music_year=&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44958 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=&search_music_year=1975&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42744 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48654 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=&search_music_year=2010&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48666 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33050 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=&search_music_year=1999&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33060 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32898 - "GET /musics/unsubscribed/?search_music_title=&search_music_artist=&search_music_year=2012&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39742 - "GET /musics/unsubscribed/?search_music_title=Carry+On&search_music_artist=fun.&search_music_year=2012&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39748 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=bfaf386f-ad67-431d-bad0-c4af10c16b65 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39758 - "GET /musics/unsubscribed/?search_music_title=Carry+On&search_music_artist=fun.&search_music_year=2012&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36620 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57476 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57490 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=23dfdbf9-2c87-4979-bb42-2ee1c7608b5a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57504 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59438 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=1200dd61-0ab2-4092-a966-327c18b98386 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59440 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59442 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=de7a6088-5df5-4693-a80f-afd82f24e9b6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59464 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=bfaf386f-ad67-431d-bad0-c4af10c16b65 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59468 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44190 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44196 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=27ad11ab-aefd-4a53-88f0-ebd1deffe303 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44206 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44222 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=6d70feb6-6840-467d-b5e0-a92d87c0529c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44230 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44244 - "POST /favorites/add/?user_email=s3695363%40rmit.edu.vn&music_id=c9344ce3-37cd-46b5-9c48-c51c273e5857 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44256 - "GET /musics/all/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35294 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+[{'year': '2012', 'web_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/songs/105-of-monsters-and-men-little-talks', 'artist': 'Of Monsters and Men', 'img_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/images/artists/OfMonstersAndMen.jpg', 'music_id': '23dfdbf9-2c87-4979-bb42-2ee1c7608b5a', 'title': 'Little Talks'}, {'year': '2012', 'web_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/songs/122-fun-carry-on', 'artist': 'fun.', 'img_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/images/artists/Fun.jpg', 'music_id': 'bfaf386f-ad67-431d-bad0-c4af10c16b65', 'title': 'Carry On'}, {'year': '2012', 'web_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/songs/111-father-john-misty-im-writing-a-novel', 'artist': 'Father John Misty', 'img_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/images/artists/FatherJohnMisty.jpg', 'music_id': '27ad11ab-aefd-4a53-88f0-ebd1deffe303', 'title': "I'm Writing a Novel"}, {'year': '2012', 'web_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/songs/114-father-john-misty-hollywood-forever-cemetery-sings', 'artist': 'Father John Misty', 'img_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/images/artists/FatherJohnMisty.jpg', 'music_id': 'c9344ce3-37cd-46b5-9c48-c51c273e5857', 'title': 'Hollywood Forever Cemetery Sings'}]
+INFO:     127.0.0.1:49994 - "GET /favorites/search/?user_email=s3695363%40rmit.edu.vn&search_music_title=&search_music_artist=&search_music_year=2012 HTTP/1.1" 200 OK
+[{'year': '2012', 'web_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/songs/105-of-monsters-and-men-little-talks', 'artist': 'Of Monsters and Men', 'img_url': 'https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/images/artists/OfMonstersAndMen.jpg', 'music_id': '23dfdbf9-2c87-4979-bb42-2ee1c7608b5a', 'title': 'Little Talks'}]
+INFO:     127.0.0.1:55616 - "GET /favorites/search/?user_email=s3695363%40rmit.edu.vn&search_music_title=&search_music_artist=Of+Monsters+and+Men&search_music_year=2012 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55624 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47620 - "DELETE /favorites/remove/?user_email=s3695363%40rmit.edu.vn&music_id=1200dd61-0ab2-4092-a966-327c18b98386 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47630 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47640 - "DELETE /favorites/remove/?user_email=s3695363%40rmit.edu.vn&music_id=c9344ce3-37cd-46b5-9c48-c51c273e5857 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47648 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45150 - "DELETE /favorites/remove/?user_email=s3695363%40rmit.edu.vn&music_id=27ad11ab-aefd-4a53-88f0-ebd1deffe303 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45156 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45158 - "DELETE /favorites/remove/?user_email=s3695363%40rmit.edu.vn&music_id=23dfdbf9-2c87-4979-bb42-2ee1c7608b5a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45164 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45168 - "DELETE /favorites/remove/?user_email=s3695363%40rmit.edu.vn&music_id=bfaf386f-ad67-431d-bad0-c4af10c16b65 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45170 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45180 - "DELETE /favorites/remove/?user_email=s3695363%40rmit.edu.vn&music_id=6d70feb6-6840-467d-b5e0-a92d87c0529c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45188 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37792 - "DELETE /favorites/remove/?user_email=s3695363%40rmit.edu.vn&music_id=de7a6088-5df5-4693-a80f-afd82f24e9b6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37796 - "GET /favorites/?user_email=s3695363%40rmit.edu.vn&page=1&per_page=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56624 - "POST /register/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56628 - "GET /favorites/?user_email=demoaccount123%40gmail.com&page=1&per_page=10 HTTP/1.1" 200 OK
