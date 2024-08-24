@@ -9,3 +9,4 @@ CD to backend folder run: nohup uvicorn main:app --reload --host 0.0.0.0 --port 
 CD to frontend folder and run: nohup python app.py > frontend.log 2>&1 &
 --> Install the requirement libraries
  
+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
